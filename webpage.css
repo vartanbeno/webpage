@@ -21,6 +21,7 @@ line {
 
 .text {
     font-size: 16px;
+    padding: 20px 0px;
 }
 
 .section-block {
@@ -32,7 +33,7 @@ line {
 }
 
 .field {
-    font-family: Helvetica;
+    font-family: inherit;
     font-weight: normal;
     font-size: 16px;
     padding: 10px;
@@ -50,6 +51,19 @@ label {
     display: block;
 }
 
+p#invalid {
+    color: #C23628;
+    display: none;
+}
+
+#signup {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5C6AC4;
+    height: 50px;
+}
+
 #footer {
 	float: bottom;
 	text-align: center;
@@ -62,17 +76,4 @@ label {
 
 #unsub {
     color: white;
-}
-
-#signup {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #5C6AC4;
-    height: 50px;
-}
-
-p#invalid {
-    color: #C23628;
-    display: none;
 }
