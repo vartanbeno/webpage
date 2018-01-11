@@ -14,5 +14,6 @@ function validate() {
         console.log("Email: " + email);
         console.log("Interested in: " + interest);
         document.getElementById("invalid").style.display = "none";
+        return false;
     }
 }

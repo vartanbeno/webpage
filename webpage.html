@@ -17,23 +17,25 @@
                 <p class="title">Stay up to date with ecommerce trends with Shopify's newsletter</p>
                 <line/>
             </div>
-            <div class="section-block fields">
-                <p class="text">Subcribe for free marketing tips</p>
-                <div class="marketing-input-button__field-wrapper">
-                    <label class="marketing-input-button-pair__input">
-                        <input type="text" class="marketing-input-button-pair__input marketing-input marketing-input--floating subscribe__email field" name="email" id="email" placeholder="Email Address"/>
-                        <p id="invalid">Please enter a valid email address</p>
-                    </label>
-                    <select name="interest" class="marketing-input-button-pair__input marketing-input marketing-input--floating subscribe__email field margin" id="interest">
-                            <option disabled selected value="">Interested in...</option>
-                            <option>Marketing</option>
-                            <option>Communications</option>
-                            <option>Merchandising</option>
-                            <option>Development</option>
-                    </select>
+            <form onsubmit="return validate()">
+                <div class="section-block fields">
+                    <p class="text">Subcribe for free marketing tips</p>
+                    <div class="marketing-input-button__field-wrapper">
+                        <label class="marketing-input-button-pair__input">
+                            <input type="text" class="marketing-input-button-pair__input marketing-input marketing-input--floating subscribe__email field" name="email" id="email" placeholder="Email Address"/>
+                            <p id="invalid">Please enter a valid email address</p>
+                        </label>
+                        <select name="interest" class="marketing-input-button-pair__input marketing-input marketing-input--floating subscribe__email field margin" id="interest">
+                                <option disabled selected value="">Interested in...</option>
+                                <option>Marketing</option>
+                                <option>Communications</option>
+                                <option>Merchandising</option>
+                                <option>Development</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="signup" onclick="validate()">Sign up now</button>
+                <input type="submit" value="Sign up now" class="btn btn-primary btn-lg btn-block" id="signup"/>
+            </form>
         </div>
     </div>
     <div id="section-block">
