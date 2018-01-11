@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica;
+    color: white;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+line {
+    display: block;
+    height: 1px;
+    width: 24px;
+    border: 0;
+    border-top: 2px solid #7AB55C;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.section-block {
+    padding-bottom: 0;
+}
+
+.section-block.fields {
+    padding-top: 10px;
+}
+
+#email {
+    color: #7B7B7B;
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: Helvetica;
+}
+
+#footer {
+	float: bottom;
+	text-align: center;
+    text-decoration: underline;
+}
+
+#unsub {
+    color: white;
+}
+
+.signup {
+    height: 45px;
+    width: 1000px;
+}
